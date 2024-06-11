@@ -15,13 +15,13 @@ import os
 
 main_dir = os.getcwd()
 
-with open(f'object_dict.pickle', 'rb') as file:
+with open('object_dict.pickle', 'rb') as file:
     object_dict = pickle.load(file)
 
-with open(f'hymn_dict.pickle', 'rb') as file:
+with open('hymn_dict.pickle', 'rb') as file:
     hymn_dict = pickle.load(file)
 
-with open(f'conf_dict.pickle', 'rb') as file:
+with open('conf_dict.pickle', 'rb') as file:
     conf_dict = pickle.load(file)
 
 
