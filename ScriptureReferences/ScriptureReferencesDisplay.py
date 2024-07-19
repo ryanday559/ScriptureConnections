@@ -114,7 +114,7 @@ def page_constructor():
             Welcome to Scripture Connections\n
             Please type a valid verse into the search bar\n
             Upon searching a scripture, you will see the verse itself, the references to this scripture which are the references contained within the footnotes, the verses that this scripture is referenced by in the footnotes of verses anywhere else in the standard works, hymns that contain references to that verse (if there are any), and all talks since 1971 that reference this verse or the chapter containing this verse in footnotes or in text references.\n
-            Note: All books use their full names except for Doctrine and Covenants, Joseph Smith Matthew, and Jospeh Smith History which are abbreviated as D&C, JSM, and JSH respectively. Please use proper capitalization of book names. For example, use 1 Nephi 1:1 instead of 1 nephi 1:1.
+            Note: All books use their full names except for Doctrine and Covenants, Joseph Smith Matthew, and Jospeh Smith History which are abbreviated as D&C, JSM, and JSH respectively. Please use proper capitalization of book names. For example, use 1 Nephi 1:1 instead of 1 nephi 1:1 or Words of Mormon 1:1 instead of Words of mormon 1:1.
             """)
         try:
             chapter = re.findall(chapter_isolator, user_input)[0][:]
