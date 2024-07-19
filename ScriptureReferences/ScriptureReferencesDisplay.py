@@ -110,9 +110,9 @@ def page_constructor():
         user_input = st.text_input('Verse:')
     with st.container(border=False):
         if user_input == "":
-            st.write("""
-            Welcome to Scripture References\n
-            Please type a valid verse into the search bar\n
+            st.write(f"""
+            Welcome to Scripture Connections
+            Please type a valid verse into the search bar
             Note: All books use their full names except for Doctrine and Covenants, Joseph Smith Matthew, and Jospeh Smith History which are abbreviated as D&C, JSM, and JSH respectively.
             """)
         try:
