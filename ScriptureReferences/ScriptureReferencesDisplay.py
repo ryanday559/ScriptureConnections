@@ -110,9 +110,10 @@ def page_constructor():
         user_input = st.text_input('Verse:')
     with st.container(border=False):
         if user_input == "":
-            st.write(f"""
-            Welcome to Scripture Connections
-            Please type a valid verse into the search bar
+            st.write("""
+            Welcome to Scripture Connections\n
+            Please type a valid verse into the search bar\n
+            Upon searching a scripture, you will see the verse itself, the references to this scripture which are the references contained within the footnotes, the verses that this scripture is referenced by in the footnotes of verses anywhere else in the standard works, hymns that contain references to that verse (if there are any), and all talks since 1971 that reference this verse or the chapter containing this verse in footnotes or in text references.\n
             Note: All books use their full names except for Doctrine and Covenants, Joseph Smith Matthew, and Jospeh Smith History which are abbreviated as D&C, JSM, and JSH respectively.
             """)
         try:
